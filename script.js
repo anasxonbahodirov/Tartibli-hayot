@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const li = document.createElement('li');
           li.innerHTML = `
               <span>${task}</span>
-              <button onclick="removeTask(this)">O'chirish</button>
+              <button onclick="removeTask(this)">Bajarildi</button>
           `;
           taskList.appendChild(li);
       });
